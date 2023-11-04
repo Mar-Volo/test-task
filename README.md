@@ -1,0 +1,1 @@
+Test task in Galaxu IT
