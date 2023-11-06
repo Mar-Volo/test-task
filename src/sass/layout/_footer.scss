@@ -38,6 +38,11 @@
   line-height: normal;
   font-weight: normal;
   text-align: center;
+  transition: all 250ms ease;
+  &:hover {
+    background-color: #f3bebe;
+    border: 1px solid #f3bebe;
+  }
 }
 .footer__discription {
   margin: 0 auto;

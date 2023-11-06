@@ -1,15 +1,11 @@
 @import './common';
 
-// @import './utils/variables';
-// @import './utils/placeholders';
+@import './utils/root';
 
 @import './base/base';
 @import './base/reset';
 
-// @import './components/btn';
 @import './components/container';
-// @import './components/logo';
-// @import './components/navigation';
 
 @import './layout/header';
 @import './layout/hero';
