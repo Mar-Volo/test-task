@@ -1,0 +1,2 @@
+!function(){var e=document.querySelectorAll(".questions__text"),l=document.querySelectorAll(".questions__discription");l.forEach(function(e){e.style.maxHeight="0",e.style.overflow="hidden"});var o=null;e.forEach(function(e,t){e.addEventListener("click",function(){null!==o&&(l[o].style.maxHeight="0",l[o].style.borderTop="none"),o!==t?(l[t].style.maxHeight=l[t].scrollHeight+"px",l[t].style.borderTop="solid 1px #ccc",o=t):o=null,console.log(o)})})}();
+//# sourceMappingURL=index.79e1cbdf.js.map

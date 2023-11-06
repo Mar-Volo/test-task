@@ -1,0 +1,2 @@
+const e=document.querySelectorAll(".questions__text"),l=document.querySelectorAll(".questions__discription");l.forEach(e=>{e.style.maxHeight="0",e.style.overflow="hidden"});let t=null;e.forEach((e,o)=>{e.addEventListener("click",()=>{null!==t&&(l[t].style.maxHeight="0",l[t].style.borderTop="none"),t!==o?(l[o].style.maxHeight=l[o].scrollHeight+"px",l[o].style.borderTop="solid 1px #ccc",t=o):t=null,console.log(t)})});
+//# sourceMappingURL=index.7335e0a4.js.map
