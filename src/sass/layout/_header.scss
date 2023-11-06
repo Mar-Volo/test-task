@@ -2,58 +2,76 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 45px;
-    padding-bottom: 45px;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom,#7898be,rgba(120,152,190,0));
+    padding: 20px 0;
 }
 .header__container {
-    display: inherit;
-    align-items: inherit;
-    justify-content: space-between;
-}
-
-
-.navigation__btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: transparent;
-    text-transform: uppercase;
-    color: #0F0F0F;
-    font-weight: 700;
-    cursor: pointer;
-    padding: 0;
 }
+
+.header__navigation {
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+
 
 .navigation__list {
     display: flex;
-    gap: 26px;
-    font-size: 14px;
-    font-weight: 700;
+    align-items: inherit;
+    justify-content: space-between;
+    gap: 20px;
     padding: 0;
-
 }
 .navigation__link {
-    text-transform: uppercase;
-    color: #0F0F0F;
-}
-.logo {
-    width: 120px;
-    height: 104px;
-    position: absolute;
-    top: 33px;
-    left: 50%;
-    transform: translateY(-20%);
-}
-.tools__list {
+    padding: 10px 5px;
+    position: relative;
     display: flex;
-    gap: 73px;
-    padding: 0;
-    height: 25px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    line-height: 1em;
+    color: #fff;
+    transition: all 250ms ease;
 }
-.tools__btn {
-width: 28px;
-height: 25px;
-cursor: pointer;
-background-color: transparent;
+.not-logo {
+    &::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%) scaleX(0);
+        transform-origin: center;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background-color: #fff;
+        transition: all 250ms ease;
+    }
+    &:hover {
+        color: #e1e8f1;
+        &::after {
+            width: 100%;
+            transform: translateX(-50%) scaleX(1);
+        }
+    }
 }
+.navigation__logo {
+    margin: 0 20px;
+}
+.navigation__home {
+    width: 14px;
+    height: 14px;
+    fill: #e1e8f1;
+}
+
+

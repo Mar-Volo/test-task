@@ -1,11 +1,11 @@
 {
-  "name": "test_task_galaxy_it",
+  "name": "test-task",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Mar-Volo.github.io/test_task_galaxy_it",
+  "homepage": "https://Mar-Volo.github.io/test-task",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /test_task_galaxy_it/"
+    "build": "parcel build src/*.html --public-url /test-task/"
   },
   "repository": {
     "type": "git",

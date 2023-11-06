@@ -1,0 +1,58 @@
+.rewievs__section {
+  padding: 100px 0;
+}
+.rewievs__container {
+  width: 500px !important;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+.rewievs__title {
+  color: #5c5c5c;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.3em;
+  letter-spacing: 0.01em;
+  margin-bottom: 40px;
+}
+.rewievs__list {
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.rewievs__item {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  &:not(:last-child) {
+    margin-bottom: 50px;
+  }
+}
+.user-name-and-stars {
+  display: flex;
+  margin-bottom: 10px;
+}
+.user-name {
+  color: #444444;
+  font-size: 18px;
+  line-height: initial;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.4em;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+.stars-box svg {
+  width: 18px;
+  height: 18;
+}
+.powered-by {
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  line-height: 1.6em;
+}
+.by-link {
+  color: #c23f3e;
+}

@@ -1,0 +1,54 @@
+.contacts__section {
+    padding: 100px 0;
+    color: #5c5c5c;
+}
+.contacts-box {
+    max-width: 250px;
+}
+.contact {
+    margin-bottom: 30px;
+}
+.face-book {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+}
+.facebook-icon {
+    fill: #3b5998;
+    transition: all 250ms ease;
+    &:hover {
+        fill: #aebfe1;
+    }
+}
+.contacts__item {
+    margin-bottom: 60px;
+}
+.contacts__title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4em;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+}
+.contacts__icon {
+    fill: #5c5c5c;
+    margin-right: 5px;
+}
+.email-icon {
+    margin-top: -3px;
+}
+.contacts__discription {
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: .3px;
+    line-height: 1.6em;
+}
+.email {
+    color: #c23f3e;
+}

@@ -1,0 +1,60 @@
+.mission__section {
+  background-repeat: no-repeat;
+  background-image: url('../images/preview/banner-5.jpg');
+  background-position: top;
+  background-size: cover;
+  padding: 170px 0;
+  height: auto;
+  color: #fff;
+}
+// .mission__container {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+// }
+.mission__title {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0.01em;
+  margin-bottom: 30px;
+  width: 550px;
+}
+.mission__offer {
+  font-weight: 500;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.6em;
+  letter-spacing: 0.3px;
+  margin-bottom: 120px;
+}
+.mission__list {
+  margin: 0 auto;
+  gap: 40px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.mission__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mission__img {
+  margin-bottom: 30px;
+}
+.mission__subtitle {
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  width: 100px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4em;
+  letter-spacing: 0.07em;
+}
